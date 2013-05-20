@@ -1,0 +1,10 @@
+PODS:
+  - SparkInspector (1.0.7)
+
+DEPENDENCIES:
+  - SparkInspector
+
+SPEC CHECKSUMS:
+  SparkInspector: 0f2507106a9149fbec1e263e1b55925ea0f81b48
+
+COCOAPODS: 0.19.1
