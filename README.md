@@ -9,24 +9,23 @@ Please [let me know](http://bonates.com) if you plan to use this code on your ap
 ## Setup
 
 All you want is the UIImage+UIImage_DBImageBlender .h and .m on your project and do the import as usual:
-<pre lang="objective-c">
-<code>
+
+```objective-c
 #import "UIImage+UIImage_DBImageBlender.h"
-</code>
-</pre>
+```
 Then just use it:
 
 example:
 
 ```objective-c
 
-> currentCoverIndex = 0;
-> usehighlight = YES;
-> currentCoverXoffset = 38;
-> currentCoverYoffset = 1;
-> currentHighlightXoffset = 39;
-> currentHighlightYoffset = 0;
-> changingCoverOffset = YES;
+currentCoverIndex = 0;
+usehighlight = YES;
+currentCoverXoffset = 38;
+currentCoverYoffset = 1;
+currentHighlightXoffset = 39;
+currentHighlightYoffset = 0;
+changingCoverOffset = YES;
 
 imageView.image = [UIImage blendOverlay:[UIImage imageNamed:currentCoverIamgeName]
                                withBaseImage:[UIImage imageNamed:@"magazine_mockup_base"]
